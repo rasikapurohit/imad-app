@@ -7,25 +7,26 @@ app.use(morgan('combined'));
 
 var articles = {
     
-   article-one: {
+  ` article-one: {
          title: 'Article One | Rasika Purohit',
          heading: 'Article One',
          date: 'September 6, 2017',
          content: <p>
                         This is the content for my first article. My name is Rasika Purohit. I wil be gratuating next year i.e. in 2018 from Vidyalankar School of Information Technology under University of Mumbai
-                    </p>},
-    article-two: { title: 'Article Two | Rasika Purohit',
+                    </p>
+   },`
+    `article-two: { title: 'Article Two | Rasika Purohit',
          heading: 'Article Two',
          date: 'September 6, 2017',
          content:<p>
                         This is the content for my second article. My name is Rasika Purohit. I wil be gratuating next year i.e. in 2018 from Vidyalankar School of Information Technology under University of Mumbai
-                    </p>},
-     article-three: { title: 'Article Three | Rasika Purohit',
+                    </p>},`
+     `article-three: { title: 'Article Three | Rasika Purohit',
          heading: 'Article Three',
          date: 'September 6, 2017',
          content:<p>
                         This is the content for my third article. My name is Rasika Purohit. I wil be gratuating next year i.e. in 2018 from Vidyalankar School of Information Technology under University of Mumbai
-                    </p>}
+                    </p>}`
 };
 
 
